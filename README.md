@@ -14,6 +14,10 @@
   ```
 - **IMPORTANT**: These CSS hacks take NO effect on inline styles, but support both internal and external stylesheets.
 
+## Dependencies
+- There are no other dependencies except for one file `blank.gif`.
+- Check to see if your build workflow has required it correctly, or manually copy it with `IE9.min.js` to your asset folder under the same level directory.  
+
 ## PNG
 - The script only fixes images named: `*-trans.png`
 - If you want the fix to apply to all PNG images then set a global variable as follows:
